@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
   index = 0
   while index < attendees.length
     newarray.push(badge_maker(attnedees[index])
-    inde += 1
+    index += 1
   end
   return newarray
 end
