@@ -4,11 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  newarray=[]
-  index = 0
-  while index < attendees.length
-    newarray.push(badge_maker(attendees[index]))
-    index+=1
+  results=[]
+  attendees.each do |name|
+    results.push(badge_maker(name))
   end
-  return newarray
+  return results
 end
