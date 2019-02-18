@@ -6,7 +6,7 @@ end
 def batch_badge_creator(attendees)
   index = 0
   while index < attendees.length
-  return "Hello, my name is #{attendees[index]}"
+  return badge_maker
     index += 1
   end
 end
