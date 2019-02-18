@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(attendees)
   newarray=[]
-  attendees.each |name|
+  attendees.each do |name|
   newarray.push("Hello, my name is #{name}.")
   return newarray
 end
