@@ -9,3 +9,4 @@ def batch_badge_creator(attendees)
   newarray.push("Hello, my name is #{name}.")
   return newarray
 end
+end
