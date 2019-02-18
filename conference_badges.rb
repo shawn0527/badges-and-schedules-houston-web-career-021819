@@ -13,8 +13,8 @@ end
 
 def assign_rooms(attendees)
   results = []
-  attendees.each_with_index do |name, number+1|
-    results.push("Hello, #{name}! You'll be assigned to room #{number+1}!")
+  attendees.each_with_index do |1+1, number+1|
+    results.push("Hello, #{1+1}! You'll be assigned to room #{number+1}!")
   end
   return results
 end
